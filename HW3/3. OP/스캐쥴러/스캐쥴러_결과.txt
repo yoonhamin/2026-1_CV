@@ -1,0 +1,20 @@
+=========================================================================================================
+ [실험: Momentum 학습률 & 스케줄러 조합 비교]
+---------------------------------------------------------------------------------------------------------
+ Optimizer    | 학습률      | Scheduler            | 최종 정확도 (%)      | 수렴(최저Loss에폭)       | 안정성 (Std)      
+---------------------------------------------------------------------------------------------------------
+ Momentum     | 0.1      | None                 | 86.64          % | 20           Epoch | 0.0329         
+ Momentum     | 0.1      | ExponentialLR        | 88.96          % | 17           Epoch | 0.0188         
+ Momentum     | 0.1      | StepLR               | 88.12          % | 24           Epoch | 0.0305         
+ Momentum     | 0.1      | CosineAnnealingLR    | 89.25          % | 22           Epoch | 0.0233         
+ Momentum     | 0.1      | ReduceLROnPlateau    | 88.93          % | 25           Epoch | 0.0250         
+ Momentum     | 0.01     | None                 | 87.92          % | 19           Epoch | 0.0219         
+ Momentum     | 0.01     | ExponentialLR        | 89.20          % | 30           Epoch | 0.0152         
+ Momentum     | 0.01     | StepLR               | 89.27          % | 21           Epoch | 0.0212         
+ Momentum     | 0.01     | CosineAnnealingLR    | 89.50          % | 30           Epoch | 0.0230         
+ Momentum     | 0.01     | ReduceLROnPlateau    | 89.95          % | 28           Epoch | 0.0181         
+ Momentum     | 0.001    | None                 | 86.60          % | 30           Epoch | 0.0369         
+ Momentum     | 0.001    | ExponentialLR        | 84.31          % | 30           Epoch | 0.0327         
+ Momentum     | 0.001    | StepLR               | 86.67          % | 30           Epoch | 0.0363         
+ Momentum     | 0.001    | CosineAnnealingLR    | 85.43          % | 30           Epoch | 0.0346         
+ Momentum     | 0.001    | ReduceLROnPlateau    | 86.91          % | 30           Epoch | 0.0322         

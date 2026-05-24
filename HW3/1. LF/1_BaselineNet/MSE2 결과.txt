@@ -1,0 +1,38 @@
+Epoch [01/30] Train Loss: 0.0269 | Test Acc: 83.01%
+Epoch [02/30] Train Loss: 0.0197 | Test Acc: 85.72%
+Epoch [03/30] Train Loss: 0.0179 | Test Acc: 86.98%
+Epoch [04/30] Train Loss: 0.0168 | Test Acc: 85.94%
+Epoch [05/30] Train Loss: 0.0161 | Test Acc: 87.77%
+Epoch [06/30] Train Loss: 0.0152 | Test Acc: 87.45%
+Epoch [07/30] Train Loss: 0.0149 | Test Acc: 87.55%
+Epoch [08/30] Train Loss: 0.0143 | Test Acc: 88.20%
+Epoch [09/30] Train Loss: 0.0138 | Test Acc: 88.47%
+Epoch [10/30] Train Loss: 0.0133 | Test Acc: 86.78%
+Epoch [11/30] Train Loss: 0.0129 | Test Acc: 88.89%
+Epoch [12/30] Train Loss: 0.0127 | Test Acc: 88.31%
+Epoch [13/30] Train Loss: 0.0122 | Test Acc: 88.63%
+Epoch [14/30] Train Loss: 0.0120 | Test Acc: 88.58%
+Epoch [15/30] Train Loss: 0.0118 | Test Acc: 88.49%
+Epoch [16/30] Train Loss: 0.0113 | Test Acc: 89.21%
+Epoch [17/30] Train Loss: 0.0111 | Test Acc: 89.05%
+Epoch [18/30] Train Loss: 0.0107 | Test Acc: 88.86%
+Epoch [19/30] Train Loss: 0.0105 | Test Acc: 89.38%
+Epoch [20/30] Train Loss: 0.0102 | Test Acc: 88.84%
+Epoch [21/30] Train Loss: 0.0100 | Test Acc: 89.19%
+Epoch [22/30] Train Loss: 0.0097 | Test Acc: 89.56%
+Epoch [23/30] Train Loss: 0.0095 | Test Acc: 88.85%
+Epoch [24/30] Train Loss: 0.0094 | Test Acc: 89.25%
+Epoch [25/30] Train Loss: 0.0092 | Test Acc: 89.20%
+Epoch [26/30] Train Loss: 0.0089 | Test Acc: 89.24%
+Epoch [27/30] Train Loss: 0.0088 | Test Acc: 89.26%
+Epoch [28/30] Train Loss: 0.0087 | Test Acc: 88.78%
+Epoch [29/30] Train Loss: 0.0085 | Test Acc: 88.88%
+Epoch [30/30] Train Loss: 0.0082 | Test Acc: 89.68%
+
+
+==================================================
+📊 [MSE 실험 결과 요약 표 서식 데이터]
+--------------------------------------------------
+최종 정확도 (Final Accuracy): 89.68%
+Loss 최솟값 수렴 에폭 (Converged Epoch): 19 Epoch
+==================================================
